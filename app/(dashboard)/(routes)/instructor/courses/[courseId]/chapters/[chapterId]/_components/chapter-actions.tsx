@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import toast from "react-hot-toast";
 
-interface ChapterActions{
+interface ChapterActionsProps{
     disabled: boolean;
     courseId: string;
     chapterId: string;
@@ -20,7 +20,7 @@ export const ChapterActions = ({
   courseId,
   chapterId,
   isPublished,
-}: ChapterActions) => {
+}: ChapterActionsProps) => {
 
     const router = useRouter();
     const [isLoading, setIsLoading] = useState(false);

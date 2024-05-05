@@ -21,7 +21,7 @@ const instructorRoutes = [
   {
     icon: List,
     label: "Courses",
-    href: "/",
+    href: "/instructor/courses",
   },
   {
     icon: BarChart,
