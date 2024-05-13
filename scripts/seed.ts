@@ -5,13 +5,16 @@ async function main(){
     try{
         await database.category.createMany({
             data:[
-                { name: "Accounting"},
-                { name: "Computer Science"},
-                { name: "Engineering"},
-                { name: "Filming"},
-                { name: "Fitness"},
-                { name: "Music"},
-                { name: "Photography"},
+                { name: "JavaScript" },
+                { name: "TypeScript" },
+                { name: "HTML/CSS" }, // after changing category seed the database instruction on schema
+                { name: "Python" }, // go to categories to match after changing
+                { name: "C++" },
+                { name: "C#" },
+                { name: "PHP" },
+                { name: "Java" },
+                { name: "React" },
+                { name: "NextJS" },
             ]
         });
         console.log("Success");

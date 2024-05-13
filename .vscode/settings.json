@@ -1,12 +1,16 @@
 {
   "cSpell.words": [
     "dont",
+    "learnhub",
     "lucide",
     "nextjs",
     "pangea",
+    "SQUEEZY",
     "tailwindcss",
     "Unpublish",
     "uploadthing"
   ],
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "WillLuke.nextjs.addTypesOnSave": true,
+  "WillLuke.nextjs.hasPrompted": true
 }
