@@ -12,7 +12,6 @@ interface SearchPageProps {
         categoryId: string;
     };
 }
-
 const SearchPage = async ({ searchParams }: SearchPageProps) => {
     const { userId } = auth();
 
