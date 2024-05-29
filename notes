@@ -1,22 +1,18 @@
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_Y3V0ZS1jcmF3ZGFkLTI4LmNsZXJrLmFjY291bnRzLmRldiQ
-CLERK_SECRET_KEY=sk_test_tt8PAJO9nWy8SO10tJu8VVyoFpK2HH8NO82cRFmLG2
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_IN_URL=/
-NEXT_PUBLIC_CLERK_AFTER_UP_URL=/
+Goto github create repo
 
-DATABASE_URL=mongodb+srv://solomonjoshua14040:Solomon@cluster0.fthkbz1.mongodb.net/LearnHub
+paste below
 
-UPLOADTHING_SECRET=sk_live_d80bb6cfaaa13b6a78ec5e646a45ce6800d9b9a64513692221cd1536bfb70e68
-UPLOADTHING_APP_ID=xzty7nju8d
+echo "# LearnHub.1.2" >> README.md
+git init
+git add README.md
 
-MUX_TOKEN_ID=747c3ab2-7776-4c4f-8ec8-aea74ecb8b48
-MUX_TOKEN_SECRET=Sd9IcXbeckB0j3nCPONYMnYJKPWJn4wqTpjiOAbW/m7eDA4JOcw5BodpdVBHYAqp7MRhTEDeeP6
+-- Interval --
 
-STRIPE_API_KEY=sk_test_51PEq06FjtJaHuhshyAiepb17VIiyWB16GeYINRWYN9uFx75QdCrv0Fc3ZPcAm4E4EoCwToLSltsW2e2rjuqKfqoq00ZDQygxMz
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-STRIPE_WEBHOOK_SECRET=whsec_52b56bf036f6f0934f2b8a54de08e1640c352c6ad38eb7c12c666e6dee7eb9c2
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51PEBdAHEP2TYpPHznHR5HbDsEhwfmng99vLBfv3EXLcDFAlula7JkllZhH3VP9P6ZbmLX3zcmrah3wtKuTc6yWTe00LT4kimqd
+git add .
 
-#  add below mentors id to upload
-NEXT_PUBLIC_MENTOR_ID=user_2gHR26Pcx7931N2eG013RQr27Mi
+-- Interval --
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JoshuaRalphz/LearnHub.1.2.git
+git push -u origin main

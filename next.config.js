@@ -13,8 +13,17 @@ const withPWA = require("@ducanh2912/next-pwa").default({
 });
 
 const nextConfig = {
+  //for uploadthing
   images: {
     domains: ["utfs.io"],
+  },
+  // for stream
+  webpack: (config) => {
+    config.externals.push({
+      "utf-8-validate": "commonjs utf-8-validate",
+      bufferutil: "commonjs bufferutil",
+    });
+    return config;
   },
 };
 

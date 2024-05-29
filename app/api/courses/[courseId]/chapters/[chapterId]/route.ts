@@ -2,7 +2,7 @@ import { db } from "@/lib/db";
 import { auth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import Mux from "@mux/mux-node";
-import { isMentor } from "@/lib/mentor";
+
 
 const { video } = new Mux({
   tokenId: process.env.MUX_TOKEN_ID,
@@ -16,10 +16,6 @@ export async function DELETE(
 ) {
   try {
     const { userId } = auth();
-
-    if (!userId || isMentor(userId)) {
-      return new NextResponse("Unauthorized", { status: 401 });
-    }
 
     const ownCourse = await db.course.findUnique({
       where: {
